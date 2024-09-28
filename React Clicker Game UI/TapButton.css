@@ -1,0 +1,23 @@
+.tap-container {
+  text-align: center;
+}
+
+.tap-button {
+  font-size: 24px;
+  background-color: #28a745;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.tap-button:active {
+  transform: scale(0.95); /* Adds a shrink animation when button is pressed */
+}
+
+p {
+  font-size: 20px;
+  margin-top: 20px;
+}
